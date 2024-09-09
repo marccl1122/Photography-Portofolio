@@ -21,7 +21,6 @@ function Hero() {
         <span className="camera-body">
           <span className="camera-lens"></span>
         </span>
-        Hire Me
       </a>
     </header>
   );

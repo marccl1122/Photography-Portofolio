@@ -292,7 +292,7 @@ nav {
     display: inline-block;
     width: 50px;
     height: 30px;
-    background-color: black;
+    background-color: var(--camera-body-bg); /* Only the camera body changes */
     border-radius: 5px;
     position: relative;
     margin-right: 10px;
@@ -302,7 +302,7 @@ nav {
 .camera-lens {
     width: 20px;
     height: 20px;
-    background-color: gold;
+    background-color: gold; /* Keep the lens color gold for both modes */
     border-radius: 50%;
     position: absolute;
     top: 5px;
@@ -317,10 +317,20 @@ nav {
     display: block;
     width: 20px;
     height: 5px;
-    background-color: #333;
+    background-color: #333; /* Flash area remains unchanged */
     position: absolute;
     top: -10px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 2px;
+}
+
+/* Light Mode Variables */
+:root.light {
+    --camera-body-bg: black; /* Camera body is black in light mode */
+}
+
+/* Dark Mode Variables */
+:root.dark {
+    --camera-body-bg: white; /* Camera body becomes white in dark mode */
 }
