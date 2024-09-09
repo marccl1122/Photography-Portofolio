@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -7,8 +7,22 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  const [theme, setTheme] = useState('light'); // Default theme is light
+
+  useEffect(() => {
+    // Apply the theme to the root of the document
+    document.documentElement.className = theme;
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+  };
+
   return (
     <div className="app">
+      <button className="theme-toggle" onClick={toggleTheme}>
+        {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
+      </button>
       <Navbar />
       <Hero />
       <About />
