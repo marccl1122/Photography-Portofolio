@@ -2,7 +2,6 @@ import React from 'react';
 
 function About() {
   return (
-    // About section with description of photographer
     <section id="about">
       <h2>About Me</h2>
       <p>

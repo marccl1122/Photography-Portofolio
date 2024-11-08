@@ -2,7 +2,6 @@ import React from 'react';
 
 function Navbar() {
   return (
-    // Navigation bar section
     <nav>
       <ul>
         <li><a href="#hero">Home</a></li>

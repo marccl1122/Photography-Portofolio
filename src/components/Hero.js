@@ -1,16 +1,15 @@
 import React from 'react';
-import img1 from '../images/IMG_5343.jpg'
+import heroimage from '../images/BA4EEEDB-37F2-4E39-AED8-486CC71B39EA.JPG'
 
 function Hero() {
   return (
-    // Hero section with main header, short description, image, and Camera-style Hire Me button
     <header id="hero">
       <div className="hero-content">
         <h1>Marc</h1>
-        <p>Artist and Photographer, welcome to my portfolio.</p>
+        <p>Contemporary Artist</p>
       </div>
       <div>
-        <img src = {img1} alt="hero" width="600" heigth="400"/>
+        <img src = {heroimage} alt="hero" width="200" heigth="200" style={{ borderRadius: '15px' }} />
       </div>
       {/* Camera Style Hire Me Button */}
       <a

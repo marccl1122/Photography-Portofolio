@@ -7,10 +7,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  const [theme, setTheme] = useState('light'); // Default theme is light
+  const [theme, setTheme] = useState('light'); //By defalt kligth theme
 
   useEffect(() => {
-    // Apply the theme to the root of the document
     document.documentElement.className = theme;
   }, [theme]);
 

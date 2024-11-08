@@ -2,7 +2,6 @@ import React from 'react';
 
 function Contact() {
   return (
-    // Contact form section
     <section id="contact">
       <h2>Work with me:</h2>
       <form>

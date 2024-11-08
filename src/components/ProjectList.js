@@ -1,82 +1,68 @@
 import React from 'react';
 import Project from './Project';
-// List of projects to be displ7ayed on the portfolio
+import img1 from '../images/39D3F52E-A66F-4627-BB24-24E98EEA48F6 2.JPG';
+import img2 from '../images/C5C26772-80B9-4108-953F-E9240F12F608.JPG';
+import img3 from '../images/IMG_2283 2.JPG';
+import img4 from '../images/IMG_4082.JPG';
+import img5 from '../images/IMG_4557.JPG';
+import img6 from '../images/IMG_4617.JPG'
+import img7 from '../images/IMG_4646.JPG';
+import img8 from '../images/IMG_5343.jpg';
+import img9 from '../images/IMG_5350.jpg';
+import img10 from '../images/IMG_5368.jpg';
+import img11 from '../images/bouldering.JPG';
+
 const projects = [
   {
-    title: 'Project 1',
-    image: '..x/public/images/img1.JPG', // Update the path to your image
-    description: 'A captivating project with stunning visuals.'
+    title: 'Complejidad',
+    image: img1, 
+    description: 'A captivating photography with stunning visuals.',
   },
   {
-    title: 'Project 2',
-    image: '/Users/marcl/Desktop/Photography-Portofolio-Remastered/Photography-Portofolio/public/images/8CEEFA14-A855-41AF-BE6D-2F14300A488B.JPG', // Update the path to your image
-    description: 'A creative exploration of photography.'
+    title: 'Cabezas',
+    image: img2, 
+    description: 'A photography of mountain exploration.',
   },
   {
-    title: 'Project 3',
-    image: '/images/project3.jpg', // Update the path to your image
-    description: 'An innovative approach to landscape photography.'
+    title: 'Fractura',
+    image: img3, 
+    description: 'An creative shot that reflects pure vulnerability.'
   },
   {
-    title: 'Project 4',
-    image: '/images/project4.jpg', // Update the path to your image3
-    description: 'A deep dive into portrait photography.'
+    title: 'Fósil',
+    image: img4, 
+    description: 'A deep dive into portrait-objective focused photography.',
   },
   {
-    title: 'Project 5',
-    image: '/images/project5.jpg', // Update the path to your image
-    description: 'Exploring the beauty of nature through my lens.'
+    title: 'Resiliencia',
+    image: img5, 
+    description: 'Reflecting the ability to accpet the change.',
   },
   {
-    title: 'Project 6',
-    image: '/images/project6.jpg', // Update the path to your image
-    description: 'Capturing the essence of urban life.'
+    title: 'Familia',
+    image: img6,
+    description: 'Capturing the essence of life.',
   },
   {
-    title: 'Project 7',
-    image: '/images/project7.jpg', // Update the path to your image
-    description: 'A journey through the world of macro photography.'
+    title: 'Morgana',
+    image: img8, 
+    description: 'Capturing the vibranteness of water through my lens.',
   },
   {
-    title: 'Project 8',
-    image: '/images/project8.jpg', // Update the path to your image
-    description: 'Documenting culture and traditions through my lens.'
+    title: 'Esperanza',
+    image: img9, 
+    description: 'The Holy Trinity in Vision and in Order.',
   },
   {
-    title: 'Project 9',
-    image: '/images/project9.jpg', // Update the path to your image
-    description: 'A vibrant collection of street photography.'
+    title: 'Suntuosidad',
+    image: img10, 
+    description: 'Exploring the faces of earth.',
   },
   {
-    title: 'Project 10',
-    image: '/images/project10.jpg', // Update the path to your image
-    description: 'Exploring the art of night photography.'
+    title: 'Fuerza',
+    image: img11,
+    description: 'Capturing the precision of rock climbing.',
   },
-  {
-    title: 'Project 11',
-    image: '/images/project11.jpg', // Update the path to your image
-    description: 'Capturing the beauty of wildlife.'
-  },
-  {
-    title: 'Project 12',
-    image: '/images/project12.jpg', // Update the path to your image
-    description: 'A creative take on fashion photography.'
-  },
-  {
-    title: 'Project 13',
-    image: '/images/project13.jpg', // Update the path to your image
-    description: 'Exploring the world of architectural photography.'
-  },
-  {
-    title: 'Project 14',
-    image: '/images/project14.jpg', // Update the path to your image
-    description: 'A collection of stunning aerial shots.'
-  },
-  {
-    title: 'Project 15',
-    image: '/images/project15.jpg', // Update the path to your image
-    description: 'Capturing moments of joy and celebration.'
-  }
 ];
 
 function ProjectList() {
