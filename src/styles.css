@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+h1 {
+  color: gold;
+}
+
+nav {
+  background-color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+/* Camera Style Hire Me Button */
+.camera-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.camera-button:hover {
+  transform: translateY(-3px);
+}
+
+/* Camera Body */
+.camera-body {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  margin-right: 10px;
+}
+
+/* Camera Lens */
+.camera-lens {
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Camera Top Part (Flash Area) */
+.camera-body::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 5px;
+  background-color: #333;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
