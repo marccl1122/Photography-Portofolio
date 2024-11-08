@@ -1,87 +1,81 @@
 import React from 'react';
 import Project from './Project';
-
-// List of projects to be displayed on the portfolio
+// List of projects to be displ7ayed on the portfolio
 const projects = [
   {
     title: 'Project 1',
-    image: '/project1.jpg',
+    image: '..x/public/images/img1.JPG', // Update the path to your image
     description: 'A captivating project with stunning visuals.'
   },
   {
     title: 'Project 2',
-    image: '/project2.jpg',
+    image: '/Users/marcl/Desktop/Photography-Portofolio-Remastered/Photography-Portofolio/public/images/8CEEFA14-A855-41AF-BE6D-2F14300A488B.JPG', // Update the path to your image
     description: 'A creative exploration of photography.'
   },
   {
     title: 'Project 3',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project3.jpg', // Update the path to your image
+    description: 'An innovative approach to landscape photography.'
   },
   {
     title: 'Project 4',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project4.jpg', // Update the path to your image3
+    description: 'A deep dive into portrait photography.'
   },
   {
     title: 'Project 5',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project5.jpg', // Update the path to your image
+    description: 'Exploring the beauty of nature through my lens.'
   },
   {
     title: 'Project 6',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project6.jpg', // Update the path to your image
+    description: 'Capturing the essence of urban life.'
   },
   {
     title: 'Project 7',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project7.jpg', // Update the path to your image
+    description: 'A journey through the world of macro photography.'
   },
   {
     title: 'Project 8',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project8.jpg', // Update the path to your image
+    description: 'Documenting culture and traditions through my lens.'
   },
   {
     title: 'Project 9',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project9.jpg', // Update the path to your image
+    description: 'A vibrant collection of street photography.'
   },
   {
     title: 'Project 10',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project10.jpg', // Update the path to your image
+    description: 'Exploring the art of night photography.'
   },
   {
     title: 'Project 11',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project11.jpg', // Update the path to your image
+    description: 'Capturing the beauty of wildlife.'
   },
   {
     title: 'Project 12',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project12.jpg', // Update the path to your image
+    description: 'A creative take on fashion photography.'
   },
   {
     title: 'Project 13',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project13.jpg', // Update the path to your image
+    description: 'Exploring the world of architectural photography.'
   },
   {
     title: 'Project 14',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project14.jpg', // Update the path to your image
+    description: 'A collection of stunning aerial shots.'
   },
   {
     title: 'Project 15',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
-  },
-  {
-    title: 'Project 16',
-    image: '/project2.jpg',
-    description: 'A creative exploration of photography.'
+    image: '/images/project15.jpg', // Update the path to your image
+    description: 'Capturing moments of joy and celebration.'
   }
 ];
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from '../images/IMG_5343.jpg'
 
 function Hero() {
   return (
@@ -8,8 +9,9 @@ function Hero() {
         <h1>Marc</h1>
         <p>Artist and Photographer, welcome to my portfolio.</p>
       </div>
-      <img src="/hero.jpg" alt="Hero" className="hero-image" />
-      
+      <div>
+        <img src = {img1} alt="hero" width="600" heigth="400"/>
+      </div>
       {/* Camera Style Hire Me Button */}
       <a
         href="https://wa.me/12363088311?text=Hi, I'm interested in your photography services!"
