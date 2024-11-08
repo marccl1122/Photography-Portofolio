@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/static/js/main.342ec3b0.js",
+    "static/media/IMG_4082.JPG": "/static/media/IMG_4082.dc555671b0dad072f9d1.JPG",
+    "static/media/IMG_2283 2.JPG": "/static/media/IMG_2283 2.99537cfe05acf9738836.JPG",
+    "static/media/IMG_5343.jpg": "/static/media/IMG_5343.6e95c917d726929a0504.jpg",
+    "static/media/IMG_5350.jpg": "/static/media/IMG_5350.9f9cbf0b0c589b2df184.jpg",
+    "static/media/IMG_5368.jpg": "/static/media/IMG_5368.b609ac5d59ec7ba80c5c.jpg",
+    "static/media/C5C26772-80B9-4108-953F-E9240F12F608.JPG": "/static/media/C5C26772-80B9-4108-953F-E9240F12F608.8d03bed4540248bcb749.JPG",
+    "static/media/bouldering.JPG": "/static/media/bouldering.4ecbaa7b8c448157b8df.JPG",
+    "static/media/BA4EEEDB-37F2-4E39-AED8-486CC71B39EA.JPG": "/static/media/BA4EEEDB-37F2-4E39-AED8-486CC71B39EA.3014a7499474335a0c6c.JPG",
+    "static/media/IMG_4617.JPG": "/static/media/IMG_4617.6ee6bf7d2bdb5ef916a1.JPG",
+    "static/media/IMG_4646.JPG": "/static/media/IMG_4646.c1fb7bb315f74789510f.JPG",
+    "static/media/39D3F52E-A66F-4627-BB24-24E98EEA48F6 2.JPG": "/static/media/39D3F52E-A66F-4627-BB24-24E98EEA48F6 2.bd90b119bbf0b0006363.JPG",
+    "static/media/IMG_4557.JPG": "/static/media/IMG_4557.39cc83fc6cbb6d9e1af2.JPG",
+    "index.html": "/index.html",
+    "main.342ec3b0.js.map": "/static/js/main.342ec3b0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.342ec3b0.js"
+  ]
+}
